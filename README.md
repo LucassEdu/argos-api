@@ -76,7 +76,7 @@ A API fica em `http://localhost:8080`. Depois, rode o [frontend](https://github.
 ## Limitações conhecidas
 
 - O Resend, no modo de testes, só entrega e-mails para o dono da conta. Para enviar a outros destinatários é preciso verificar um domínio próprio.
-- Testes automatizados ainda estão em construção (hoje há apenas o teste de carregamento do contexto).
+- Testes unitários cobrem ciclos de cobrança, visibilidade, dashboard, cadastro e fluxo de senha (JUnit 5 + Mockito). Ainda faltam testes de integração com banco e dos controllers.
 
 ## Autor
 
